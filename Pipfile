@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "*"
+keras = "*"
+numpy = "*"
+jupyterlab = "*"
+grpcio = "==1.42.0"
+tensorflow-serving-api = "==2.7.0"
+keras-image-helper = "*"
+flask = "*"
+tensorflow-protobuf = "==2.7.0"
+protobuf = "==3.19"
+scikit-learn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
